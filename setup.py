@@ -4,7 +4,7 @@ with open('requirements.txt', encoding="utf-8") as f:
     install_requires = f.read().strip().split('\n')
 
 setup(
-    name='scoss',
+    name='zalo_sdk',
     description='Connect Zalo OA API',
     author='Vien Tran',
     author_email='tranvanvien98bg@gmail.com',
